@@ -1,0 +1,11 @@
+//switch case
+const x = 5;
+switch(x%2)
+{
+	case 0:
+		console.log('x is even');
+		break;
+	case 1:
+		console.log('x is odd')
+		break;
+}
