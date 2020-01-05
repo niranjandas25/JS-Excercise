@@ -15,7 +15,7 @@ function fun1(name)
 name='Srini'
 fun1(name);
 
-//with one argument but more number of parameters.
+//Optional Argument.
 function fun2(x, y, z)
 {
 	if(y==undefined && z==undefined)
@@ -64,7 +64,7 @@ var queue=fun4(3)
 console.log(queue(2));
 console.log(queue(3));
 
-//Recursion
+//Recursion - Factorial
 
 function fun5(x)
 {
@@ -81,3 +81,12 @@ else
 
 console.log(fun5(5));
 console.log(fun5(6));
+
+//Arrow functions
+
+var a=5;
+var b=5;
+const sum1 = (a,b) => {return a*b};
+const sum2 = (a,b) => a*b;
+console.log('Sum1 :- ' + sum1(a,b));
+console.log('Sum2 :- ' + sum2(a,b));
